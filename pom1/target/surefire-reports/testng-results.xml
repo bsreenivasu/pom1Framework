@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-18T19:10:28 IST" name="Surefire suite" finished-at="2020-10-18T19:11:01 IST" duration-ms="33641">
+    <groups>
+    </groups>
+    <test started-at="2020-10-18T19:10:28 IST" name="Surefire test" finished-at="2020-10-18T19:11:01 IST" duration-ms="33641">
+      <class name="com.qa.hrm.Tests.HomePageTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.qa.hrm.Tests.HomePageTest@5db45159]" started-at="2020-10-18T19:10:28 IST" name="launchBrowser" finished-at="2020-10-18T19:10:41 IST" duration-ms="13258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyHomePageTitle()[pri:1, instance:com.qa.hrm.Tests.HomePageTest@5db45159]" started-at="2020-10-18T19:10:53 IST" name="verifyHomePageTitle" finished-at="2020-10-18T19:10:56 IST" duration-ms="3029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method signature="verifyManagerLink()[pri:2, instance:com.qa.hrm.Tests.HomePageTest@5db45159]" started-at="2020-10-18T19:10:56 IST" name="verifyManagerLink" finished-at="2020-10-18T19:10:56 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManagerLink -->
+        <test-method signature="verifyPageHeader()[pri:3, instance:com.qa.hrm.Tests.HomePageTest@5db45159]" started-at="2020-10-18T19:10:56 IST" name="verifyPageHeader" finished-at="2020-10-18T19:10:56 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageHeader -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hrm.Tests.HomePageTest@5db45159]" started-at="2020-10-18T19:10:59 IST" name="tearDown" finished-at="2020-10-18T19:11:01 IST" duration-ms="1442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hrm.Tests.HomePageTest -->
+      <class name="com.qa.hrm.Tests.LoginPageTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.qa.hrm.Tests.LoginPageTest@6107227e]" started-at="2020-10-18T19:10:41 IST" name="launchBrowser" finished-at="2020-10-18T19:10:53 IST" duration-ms="12178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.qa.hrm.Tests.LoginPageTest@6107227e]" started-at="2020-10-18T19:10:56 IST" name="verifyLoginPageTitle" finished-at="2020-10-18T19:10:56 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method signature="verifyResetButton()[pri:2, instance:com.qa.hrm.Tests.LoginPageTest@6107227e]" started-at="2020-10-18T19:10:56 IST" name="verifyResetButton" finished-at="2020-10-18T19:10:57 IST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResetButton -->
+        <test-method signature="doLoginTest()[pri:3, instance:com.qa.hrm.Tests.LoginPageTest@6107227e]" started-at="2020-10-18T19:10:57 IST" name="doLoginTest" finished-at="2020-10-18T19:10:59 IST" duration-ms="2628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.hrm.Tests.LoginPageTest@6107227e]" started-at="2020-10-18T19:11:01 IST" name="tearDown" finished-at="2020-10-18T19:11:01 IST" duration-ms="774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hrm.Tests.LoginPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
