@@ -1,33 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="36296" started-at="2020-10-18T19:07:23 IST" finished-at="2020-10-18T19:08:00 IST">
+  <suite name="Suite" duration-ms="95543" started-at="2020-10-20T08:04:50 IST" finished-at="2020-10-20T08:06:25 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="36296" started-at="2020-10-18T19:07:23 IST" finished-at="2020-10-18T19:08:00 IST">
+    <test name="Test" duration-ms="95543" started-at="2020-10-20T08:04:50 IST" finished-at="2020-10-20T08:06:25 IST">
       <class name="com.qa.hrm.Tests.HomePageTest">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.qa.hrm.Tests.HomePageTest@7a3d45bd]" name="launchBrowser" is-config="true" duration-ms="32089" started-at="2020-10-18T19:07:23 IST" finished-at="2020-10-18T19:07:56 IST">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.qa.hrm.Tests.HomePageTest@6a192cfe]" name="launchBrowser" is-config="true" duration-ms="41762" started-at="2020-10-20T08:04:50 IST" finished-at="2020-10-20T08:05:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="verifyHomePageTitle()[pri:1, instance:com.qa.hrm.Tests.HomePageTest@7a3d45bd]" name="verifyHomePageTitle" duration-ms="3028" started-at="2020-10-18T19:07:56 IST" finished-at="2020-10-18T19:07:59 IST">
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:1, instance:com.qa.hrm.Tests.HomePageTest@6a192cfe]" name="verifyHomePageTitle" duration-ms="5544" started-at="2020-10-20T08:06:08 IST" finished-at="2020-10-20T08:06:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageTitle -->
-        <test-method status="PASS" signature="verifyManagerLink()[pri:2, instance:com.qa.hrm.Tests.HomePageTest@7a3d45bd]" name="verifyManagerLink" duration-ms="201" started-at="2020-10-18T19:07:59 IST" finished-at="2020-10-18T19:07:59 IST">
+        <test-method status="PASS" signature="verifyManagerLink()[pri:2, instance:com.qa.hrm.Tests.HomePageTest@6a192cfe]" name="verifyManagerLink" duration-ms="56" started-at="2020-10-20T08:06:14 IST" finished-at="2020-10-20T08:06:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyManagerLink -->
-        <test-method status="PASS" signature="verifyPageHeader()[pri:3, instance:com.qa.hrm.Tests.HomePageTest@7a3d45bd]" name="verifyPageHeader" duration-ms="68" started-at="2020-10-18T19:07:59 IST" finished-at="2020-10-18T19:07:59 IST">
+        <test-method status="PASS" signature="verifyPageHeader()[pri:3, instance:com.qa.hrm.Tests.HomePageTest@6a192cfe]" name="verifyPageHeader" duration-ms="866" started-at="2020-10-20T08:06:14 IST" finished-at="2020-10-20T08:06:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageHeader -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hrm.Tests.HomePageTest@7a3d45bd]" name="tearDown" is-config="true" duration-ms="829" started-at="2020-10-18T19:07:59 IST" finished-at="2020-10-18T19:08:00 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hrm.Tests.HomePageTest@6a192cfe]" name="tearDown" is-config="true" duration-ms="3196" started-at="2020-10-20T08:06:18 IST" finished-at="2020-10-20T08:06:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.hrm.Tests.HomePageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.qa.hrm.Tests.LoginPageTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.qa.hrm.Tests.LoginPageTest@5119fb47]" name="launchBrowser" is-config="true" duration-ms="35236" started-at="2020-10-20T08:05:32 IST" finished-at="2020-10-20T08:06:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyLoginPageTitle()[pri:1, instance:com.qa.hrm.Tests.LoginPageTest@5119fb47]" name="verifyLoginPageTitle" duration-ms="2456" started-at="2020-10-20T08:06:08 IST" finished-at="2020-10-20T08:06:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method status="PASS" signature="verifyResetButton()[pri:2, instance:com.qa.hrm.Tests.LoginPageTest@5119fb47]" name="verifyResetButton" duration-ms="762" started-at="2020-10-20T08:06:11 IST" finished-at="2020-10-20T08:06:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResetButton -->
+        <test-method status="PASS" signature="doLoginTest()[pri:3, instance:com.qa.hrm.Tests.LoginPageTest@5119fb47]" name="doLoginTest" duration-ms="6076" started-at="2020-10-20T08:06:12 IST" finished-at="2020-10-20T08:06:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hrm.Tests.LoginPageTest@5119fb47]" name="tearDown" is-config="true" duration-ms="4177" started-at="2020-10-20T08:06:21 IST" finished-at="2020-10-20T08:06:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hrm.Tests.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
