@@ -2,8 +2,8 @@ package com.qa.hrm.Tests;
 
 import java.io.IOException;
 import java.util.Properties;
-import java.util.logging.Logger;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -22,7 +22,9 @@ public class LoginPageTest {
 	WebDriver driver;
 	BasePage basepage;
 	LoginPage loginpage;
-
+	
+	private static Logger log = Logger.getLogger(HomePageTest.class);
+	 
 	
 	@BeforeTest
 	public void launchBrowser() throws IOException {
