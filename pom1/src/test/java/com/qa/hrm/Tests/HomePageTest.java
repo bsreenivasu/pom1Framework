@@ -24,6 +24,8 @@ public class HomePageTest {
 	LoginPage loginpage;
 	HomePage homepage;
 	
+	
+	//logs configured in this file to generate logs
 	private static Logger log = Logger.getLogger(HomePageTest.class);
 	
 	
